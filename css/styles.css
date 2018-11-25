@@ -1,0 +1,249 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+
+}
+
+p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.7em;
+}
+
+.hero-unit h1 {
+	font-size: 4.5em;
+	color: #fff;
+	margin: 3em 0;
+	text-transform: none;
+}
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+h1 small {
+	font-size: 0.5em;
+	color: #cfd4ff;
+}
+h2 {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 34px !important;
+	letter-spacing: 0.1em !important;
+	font-weight: 400;
+}
+h3 {
+	color: #333;
+	font-weight: 300;
+	font-size: 29px;
+	margin: 2em 0 3em 0;
+	letter-spacing: 0.1em;
+}
+h4 {
+	font-size: 19px;
+	font-weight: 400;
+	color: #333;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*SEKCJE*/
+
+.hero-unit {
+	background: #f9f9f9 url(../img/banner_final.png) no-repeat center; 
+	background-size: cover; 
+}
+
+.zadzwon {
+	background: #f13438 url(img/bg.png) no-repeat center; 
+	padding: 2em 0
+}
+.zadzwon span {
+	color: #fff;
+	font-size: 27px;
+	font-weight: 400; 
+	margin: 0; 
+	text-transform: none;
+}
+.zadzwon .ramka {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	padding: 0.6em 0.7em;
+	color: #fff; 
+	font-weight: 700; 
+	font-size: 27px; 
+	margin-left: 15px;
+}
+#oferta {
+	background-color: #f9f9f9;
+	padding: 3em 0;
+}
+#oferta img {
+	margin: 0 auto;
+}
+.referencje {
+	background: #aaa url(../img/bg_croud.png) no-repeat center fixed;
+	padding: 2em 0;
+}
+.referencje blockquote {
+	margin: 0;
+	background: url(../img/zbyszek.png) left no-repeat;
+}
+.referencje p {
+	padding-left: 150px;
+	
+}
+#dlaczegomy {
+	padding: 3em 0;
+}
+#dlaczegomy .col-sm-4 {
+	margin-top: 2em;
+}
+.motto {
+	background: #ddd url(../img/mission.png) center fixed;
+	background-size: cover;
+	padding: 120px 0;
+}
+.form-success {
+	display: block;
+	padding: 1em;
+	color: green;
+}
+.form-error {
+	display: block;
+	padding: 1em;
+	color: red;
+}
+
+/*SEKCJE END*/
+
+footer#kontakt {
+	color: #fff;
+	background: #222; 
+	padding: 3em 0;
+}
+footer p {
+	font-size: 17px;
+}
+footer h4, footer a, footer a:hover {
+	color: #fff;
+}
+
+footer ul, footer li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+footer li {
+	padding: 1em 0;
+	font-size: 16px;
+	font-family: Roboto, 'sans-serif';
+	font-size: 17px;
+	font-weight: 300;
+}
+footer li a {
+	font-family: Roboto, 'sans-serif';
+}
+footer .glyphicon {
+	margin-right: 1em;
+	color: #d70001;
+}
+.glyphicon-ok {
+	color: green !important;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+footer p {
+	color: #fff;
+	margin-top: 2em;
+}
+
+
+form button {
+	font-weight: 400 !important;
+	font-size: 17px !important;
+	color: #fff !important;
+	font-family: 'Roboto', sans-serif !important;
+	border: 1px solid #fff !important;
+	border-radius: 2px;
+	padding: 15px !important;
+	text-transform: none;
+	background: transparent !important;
+}
+
+blockquote {
+	border: 0 !important;
+	padding-left: 20px !important;
+}
+blockquote p {
+	color: #eee;
+	font-size: 19px;
+}
+
+a.active {
+	color: #d70001 !important;
+	border: 1px solid #f13438 !important;
+	border-radius: 2px;
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	.symbol {
+		display: none;
+	}
+
+	h1 {
+		padding: 2em 0 !important;
+		font-size: 3em !important;
+	}
+	h2 {
+		font-size: 2em !important;
+	}
+	h3 {
+		font-size: 1.5em !important;
+	}
+	section.motto {
+		padding: 10px 0 !important;
+	}
+
+	footer div.col-sm-4 {
+		margin-bottom: 2em !important;
+	}
+	.zapytanie {
+		display: none;
+	}
+	#oferta .col-md-4 {
+		margin-bottom: 3em;
+	}
+	.referencje blockquote {
+	margin: 0;
+	background: url(../img/zbyszek.png) top no-repeat;
+	}
+	.referencje p {
+	padding: 150px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.nav-logo img {
+		margin-top: 14px;
+		width: 190px;
+	}
+	h1 {
+		padding: 2em 0 !important;
+		font-size: 2.5em !important;
+		margin: 0 !important;
+	}
+	.zadzwon {
+	background: #f13438 url(img/bg.png) no-repeat center; 
+	padding: 1em 0 2em 0
+	}
+	a.ramka {
+		margin-left: 0px !important;
+	}
+}
